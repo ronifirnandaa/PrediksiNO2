@@ -20,7 +20,7 @@ y_scaled = no2['NO2_scaled']
 # Streamlit UI
 # ===============================
 st.set_page_config(page_title="Prediksi NO₂ KNN", layout="wide")
-st.title("Prediksi Konsentrasi NO₂ (KNN)")
+st.title("Prediksi Konsentrasi NO2 (KNN)")
 
 tab1, tab2 = st.tabs(["Prediksi Otomatis", "Prediksi Manual"])
 
